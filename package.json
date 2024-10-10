@@ -8,6 +8,15 @@
     "type": "git",
     "url": "https://github.com/kailash-shaw/vscode-dark-red-theme"
   },
+  "author": "Kailash Shaw",
+	"contributors": [
+		{
+			"name": "Kailash Shaw",
+			"email": "kailash.shaw17@gmail.com"
+		}
+	],
+	"license": "MIT",
+  "icon": "icon/image.png",
   "keywords": [
     "theme",
     "dark theme",
@@ -15,6 +24,7 @@
     "Kailash Shaw",
     "vs code theme",
     "red theme",
+    "red theme dark",
     "dark red theme",
     "vscode-dark-red-theme"
   ],

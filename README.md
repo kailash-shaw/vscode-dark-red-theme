@@ -1,4 +1,4 @@
-# vscode-dark-red-theme README
+# Red Theme Dark
 
 ## Working with Markdown
 
