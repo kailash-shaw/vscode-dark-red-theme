@@ -7,7 +7,7 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * Simple install and enjoy..
 
 
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](https://github.com/kailash-shaw/vscode-dark-red-theme/blob/master/gif/dark-red-theme.gif)
 
 ## For more information
 * [kailash_shaw@hotmail.com](https://github.com/kailash-shaw/vscode-dark-red-theme/tree/master)
