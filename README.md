@@ -2,7 +2,7 @@
 
 ## Awesome dark red theme for vs code
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+It sounds like you’re interested in enhancing your coding experience in VS Code! A good theme can definitely improve focus and reduce eye strain. You can try this theme for more focus and protect your eye to damage. This theme is the best for developers choice.
 
 * Simple install and enjoy..
 
