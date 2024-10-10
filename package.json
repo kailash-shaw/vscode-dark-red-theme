@@ -1,0 +1,36 @@
+{
+  "name": "vscode-dark-red-theme",
+  "displayName": "Red Theme Dark",
+  "description": "This is the vs code dark red theme. You like to enjoy it. Thanks",
+  "version": "0.0.1",
+  "publisher": "vscode-dark-red-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kailash-shaw/vscode-dark-red-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "dark red theme",
+    "Kailash Shaw",
+    "vs code theme",
+    "red theme",
+    "dark red theme",
+    "vscode-dark-red-theme"
+  ],
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Red Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Red Theme-color-theme.json"
+      }
+    ]
+  }
+}
