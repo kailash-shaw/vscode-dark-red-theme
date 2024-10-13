@@ -1,4 +1,4 @@
-# Dark Red Theme
+# Jellyfish dark Color
 
 ## Awesome dark red theme for vs code
 

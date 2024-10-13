@@ -1,7 +1,7 @@
 {
   "name": "vscode-dark-red-theme",
-  "displayName": "Dark Red Theme VS Code",
-  "description": "This is the vs code dark red theme. You like to enjoy it. Thanks",
+  "displayName": "Kali Theme",
+  "description": "This is the vs code dark theme. You like to enjoy it. Thanks",
   "version": "0.12.0",
   "publisher": "vscode-dark-red-theme",
   "repository": {
@@ -18,11 +18,14 @@
   "license": "MIT",
   "icon": "icon/image.png",
   "keywords": [
+    "Kali Theme",
+    "Kali Dark Theme",
+    "Kali Light Theme",
     "dark red theme",
     "red dark theme",
     "theme",
     "dark theme",
-    "Kailash Shaw",
+    "Kali vs code theme",
     "vs code theme",
     "red theme",
     "red theme dark",
@@ -39,14 +42,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Kali",
-        "uiTheme": "vs-dark",
-        "path": "./themes/red_theme_dark-color-theme.json"
-      },
-      {
-        "label": "Kali Pro+",
+        "label": "Kali Light",
         "uiTheme": "vs-dark",
         "path": "./themes/red_theme_light-color-theme.json"
+      },
+      {
+        "label": "Kali Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red_theme_dark-color-theme.json"
       }
     ]
   }
