@@ -39,9 +39,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Red Theme",
+        "label": "Kali",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dark Red Theme-color-theme.json"
+        "path": "./themes/red_theme_dark-color-theme.json"
+      },
+      {
+        "label": "Kali Pro+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red_theme_light-color-theme.json"
       }
     ]
   }
