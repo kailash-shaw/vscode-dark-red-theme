@@ -42,15 +42,16 @@
   "contributes": {
     "themes": [
       {
-        "label": "Kali Light",
-        "uiTheme": "vs-dark",
-        "path": "./themes/red_theme_light-color-theme.json"
-      },
-      {
         "label": "Kali Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/red_theme_dark-color-theme.json"
+      },
+      {
+        "label": "Kali Light",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red_theme_light-color-theme.json"
       }
+      
     ]
   }
 }
