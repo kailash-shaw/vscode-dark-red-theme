@@ -14,7 +14,7 @@
 		"activityBar.activeFocusBorder": "#030200",
 		"activityBar.inactiveForeground": "#757575",
 		"sideBarTitle.foreground": "#cccccc",
-		"sideBarTitle.background": "#0c000051",
+		"sideBarTitle.background": "#21252bcc",
 		"sideBar.dropBackground": "#ffffffeb",
 		"sideBar.background": "#21252bcc",
 		"sideBar.foreground": "#cccccc",
@@ -67,7 +67,7 @@
 		"inputOption.activeForeground": "#ffffff",
 		"input.placeholderForeground": "#a6a6a6",
 		"editorPane.background": "#00000000",
-		"editor.background": "#282c34",
+		"editor.background": "#1a1c21",
 		"editor.foreground": "#cccccc",
 		"editorCursor.foreground": "#ffb14b",
 		"editorCursor.background": "#ffffff",
@@ -125,7 +125,7 @@
 		"editorInfo.border": "#4490BF00",
 		"editorLineNumber.activeForeground": "#ff6c67",
 		"editorLineNumber.foreground": "#cccc",
-		"editorGutter.background": "#282c34f9",
+		"editorGutter.background": "#1a1c21",
 		"editorGutter.modifiedBackground": "#0c7d9d",
 		"editorGutter.addedBackground": "#587c0c",
 		"editorGutter.deletedBackground": "#94151b",
@@ -255,7 +255,7 @@
 		"statusBar.noFolderForeground": "#cccccc",
 		"statusBar.noFolderBorder": "#0c0000",
 		"statusBarItem.remoteBackground": "#000306",
-		"statusBarItem.remoteForeground": "#fd7575",
+		"statusBarItem.remoteForeground": "#cccccc",
 		"terminal.foreground": "#cccccc",
 		"terminal.background": "#0000001d",
 		"terminal.border": "#00000082",
@@ -285,6 +285,51 @@
 		"terminal.ansiYellow": "#e5e510"
 	},
 	"tokenColors": [
+		{
+			"scope": [
+				// the following elements will be in italic
+				"comment",
+				"storage.modifier", // static keyword
+				"storage.type.php", // typehints in methods keyword
+				"keyword.other.new.php", // new
+				"entity.other.attribute-name", // html attributes
+				"fenced_code.block.language.markdown", // markdown language modifier
+				"keyword", //import, export, return…
+				"storage.modifier", //static keyword
+				"storage.type", //class keyword
+				"keyword.control",
+				"constant.language",
+				"entity.other.attribute-name",
+				"entity.name.method",
+				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.import.js",
+				"keyword.control.flow.js",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
+				"keyword.control.from.tsx"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				// the following elements will be excluded from italics
+				//   (VSCode has some defaults for italics)
+				"invalid",
+				"keyword.operator",
+				"constant.numeric.css",
+				"keyword.other.unit.px.css",
+				"constant.numeric.decimal.js",
+				"constant.numeric.json",
+				"comment.block",
+				"entity.other.attribute-name.class.css"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
 		{
 			"scope": [
 				"meta.embedded",

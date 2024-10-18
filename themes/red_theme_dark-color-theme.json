@@ -4,13 +4,13 @@
 		"foreground": "#cccccc",
 		"focusBorder": "#0c0000",
 		"selection.background": "#ffdcdc4c",
-		"titleBar.activeBackground": "#21252bcc",
+		"titleBar.activeBackground": "#16181d",
 		"titleBar.activeForeground": "#cccccc",
-		"titleBar.inactiveBackground": "#070b11",
+		"titleBar.inactiveBackground": "#16181d",
 		"titleBar.inactiveForeground": "#cccccc",
 		"titleBar.border": "#1d191978",
 		"menu.foreground": "#cccccc",
-		"menu.background": "#282c34",
+		"menu.background": "#1b1e23",
 		"menu.border": "#0c0000",
 		"menubar.selectionForeground": "#ec275f",
 		"menubar.selectionBackground": "#00040b54",
@@ -22,32 +22,34 @@
 		"activityBarBadge.foreground": "#ffffff",
 		"activityBarBadge.background": "#f5445e",
 		"activityBar.foreground": "#ffcdd2",
-		"activityBar.background": "#00040b54",
+		"activityBar.background": "#16181d",
 		"activityBar.border": "#090600",
 		"activityBar.activeBorder": "#f74657",
-		"activityBar.activeBackground": "#030200",
+		"activityBar.activeBackground": "#03020075",
 		"activityBar.activeFocusBorder": "#030200",
 		"activityBar.inactiveForeground": "#cccccc85",
 		"sideBar.dropBackground": "#ffffffeb",
-		"sideBar.background": "#161616fd",
+		"sideBar.background": "#191a1f",
 		"sideBar.foreground": "#cccccc",
 		"sideBar.border": "#070b11f5",
 		"sideBarSectionHeader.border": "#060000",
-		"sideBarSectionHeader.background": "#232a3627",
+		"sideBarSectionHeader.background": "#161a21",
 		"sideBarSectionHeader.foreground": "#fff0f0",
 		"sideBarTitle.foreground": "#cccccc",
-		"list.inactiveSelectionBackground": "#161616",
-		"list.inactiveSelectionForeground": "#fefeff",
-		"list.hoverBackground": "#e6f7ff5e",
+		"list.inactiveSelectionBackground": "#424956",
+		"list.inactiveSelectionForeground": "#f0f0ff",
+		"list.hoverBackground": "#bfd2f963",
 		"list.hoverForeground": "#ffffff",
-		"list.activeSelectionBackground": "#bfd2f9e3",
+		"list.activeSelectionBackground": "#bfd2f9b0",
 		"list.activeSelectionForeground": "#ffede3",
 		"list.dropBackground": "#ffffff",
 		"list.highlightForeground": "#f6f3a1",
 		"list.focusBackground": "#d4e0ee36",
 		"list.focusForeground": "#ffffff",
-		"listFilterWidget.background": "#653723",
-		"listFilterWidget.outline": "#00000000",
+		// "editorSuggestWidget.background": "#282c34f8",
+		// "editorSuggestWidget.border": "#0c0000",
+		"listFilterWidget.background": "#282c34f8",
+		"listFilterWidget.outline": "#0c0000",
 		"listFilterWidget.noMatchesOutline": "#be1100",
 		"tree.indentGuidesStroke": "#ffebeb",
 		"textLink.foreground": "#ff5887",
@@ -151,10 +153,10 @@
 		"badge.foreground": "#ffffff",
 		"tab.activeForeground": "#ffe6e6",
 		"tab.border": "#0c0000",
-		"tab.activeBackground": "#0c0000",
-		"tab.activeBorder": "#f91b5a20",
+		"tab.activeBackground": "#161616",
+		"tab.activeBorder": "#161616",
 		"tab.activeBorderTop": "#f91b5a",
-		"tab.inactiveBackground": "#161616",
+		"tab.inactiveBackground": "#1d2026",
 		"tab.inactiveForeground": "#cccccc",
 		"tab.hoverBackground": "#0c0000",
 		"tab.hoverForeground": "#fefff3",
@@ -245,7 +247,7 @@
 		"debugExceptionWidget.border": "#101019",
 		"statusBarItem.activeBackground": "#FFFFFF25",
 		"statusBar.foreground": "#cccccc",
-		"statusBar.background": "#21252bcc",
+		"statusBar.background": "#16181d51",
 		"statusBarItem.hoverBackground": "#ffdcdc22",
 		"statusBar.debuggingBackground": "#ff8585d3",
 		"statusBar.debuggingForeground": "#ffffff",
@@ -282,6 +284,51 @@
 		"terminal.ansiYellow": "#e5e510"
 	},
 	"tokenColors": [
+		{
+			"scope": [
+				// the following elements will be in italic
+				"comment",
+				"storage.modifier", // static keyword
+				"storage.type.php", // typehints in methods keyword
+				"keyword.other.new.php", // new
+				"entity.other.attribute-name", // html attributes
+				"fenced_code.block.language.markdown", // markdown language modifier
+				"keyword", //import, export, return…
+				"storage.modifier", //static keyword
+				"storage.type", //class keyword
+				"keyword.control",
+				"constant.language",
+				"entity.other.attribute-name",
+				"entity.name.method",
+				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.import.js",
+				"keyword.control.flow.js",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
+				"keyword.control.from.tsx"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				// the following elements will be excluded from italics
+				//   (VSCode has some defaults for italics)
+				"invalid",
+				"keyword.operator",
+				"constant.numeric.css",
+				"keyword.other.unit.px.css",
+				"constant.numeric.decimal.js",
+				"constant.numeric.json",
+				"comment.block",
+				"entity.other.attribute-name.class.css"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
 		{
 			"scope": [
 				"meta.embedded",
