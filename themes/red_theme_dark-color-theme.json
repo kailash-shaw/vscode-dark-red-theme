@@ -165,8 +165,8 @@
 		"scrollbarSlider.hoverBackground": "#e9e9e9",
 		"scrollbarSlider.activeBackground": "#b4b4b4",
 		"progressBar.background": "#ec275f",
-		"pickerGroup.border": "#3f3f46",
-		"pickerGroup.foreground": "#ec275f",
+		"pickerGroup.border": "#000033f9",
+		"pickerGroup.foreground": "#9d9dfff9",
 		"debugToolBar.background": "#101019",
 		"debugToolBar.border": "#101019",
 		"notifications.foreground": "#cccccc",
@@ -209,7 +209,7 @@
 		"editorHoverWidget.border": "#0c0000",
 		"editorWidget.foreground": "#e2e2e2",
 		"editorWidget.background": "#282c34e0",
-		"editorWidget.resizeBorder": "#ec275f",
+		"editorWidget.resizeBorder": "#d1fbfe",
 		"widget.shadow": "#0e0000ef",
 		"peekView.border": "#686868",
 		"peekViewEditor.background": "#21252b",
@@ -343,14 +343,14 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#75715E"
+				"foreground": "#747373"
 			}
 		},
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#fffbcfda"
 			}
 		},
 		{
@@ -384,6 +384,17 @@
 		{
 			"name": "parameters",
 			"scope": [
+				"punctuation.decorator.ts",
+				"meta.decorator.ts",
+				// "source.ts"
+			],
+			"settings": {
+				"foreground": "#9bff7a"
+			}
+		},
+		{
+			"name": "parameters",
+			"scope": [
 				"meta.class.ts"
 			],
 			"settings": {
@@ -391,10 +402,19 @@
 			}
 		},
 		{
+			"name": "parameters",
+			"scope": [
+				"punctuation.terminator.statement.ts"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#bc97ff"
+				"foreground": "#FD971F"
 			}
 		},
 		{
@@ -470,7 +490,7 @@
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#FD971F"
+				"foreground": "#ffffff"
 			}
 		},
 		{

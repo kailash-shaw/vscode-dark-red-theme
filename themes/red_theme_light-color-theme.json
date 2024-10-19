@@ -21,7 +21,7 @@
 		"sideBar.border": "#0c0000",
 		"sideBarSectionHeader.border": "#0c0000",
 		"sideBarSectionHeader.background": "#00000000",
-		"sideBarSectionHeader.foreground": "#ffcbcb",
+		"sideBarSectionHeader.foreground": "#ffe8e8",
 		"list.hoverBackground": "#d7e5ff45",
 		"list.hoverForeground": "#ffffff",
 		"list.activeSelectionBackground": "#9dbeff75",
@@ -201,7 +201,7 @@
 		"editorHoverWidget.border": "#070000",
 		"editorWidget.foreground": "#fff0f0",
 		"editorWidget.background": "#282c34",
-		"editorWidget.resizeBorder": "#ffc8d8",
+		"editorWidget.resizeBorder": "#d1fbfe",
 		"widget.shadow": "#0e0000ef",
 		"peekView.border": "#220000",
 		"peekViewEditor.background": "#21252b",
@@ -343,14 +343,14 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#75715E"
+				"foreground": "#747373"
 			}
 		},
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#fffbcfda"
 			}
 		},
 		{
@@ -384,6 +384,17 @@
 		{
 			"name": "parameters",
 			"scope": [
+				"punctuation.decorator.ts",
+				"meta.decorator.ts",
+				// "source.ts"
+			],
+			"settings": {
+				"foreground": "#9bff7a"
+			}
+		},
+		{
+			"name": "parameters",
+			"scope": [
 				"meta.class.ts"
 			],
 			"settings": {
@@ -391,24 +402,33 @@
 			}
 		},
 		{
+			"name": "parameters",
+			"scope": [
+				"punctuation.terminator.statement.ts"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#FD971F"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#bc97ff"
 			}
 		},
 		{
 			"name": "User-defined constant",
 			"scope": "constant.character, constant.other",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#bc97ff"
 			}
 		},
 		{
@@ -423,7 +443,7 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#ff5b97"
+				"foreground": "#ff4c8d"
 			}
 		},
 		{
@@ -470,7 +490,7 @@
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#FD971F"
+				"foreground": "#ffffff"
 			}
 		},
 		{
