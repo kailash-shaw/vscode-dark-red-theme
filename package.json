@@ -50,6 +50,11 @@
         "label": "Kali Light",
         "uiTheme": "vs-dark",
         "path": "./themes/red_theme_light-color-theme.json"
+      },
+      {
+        "label": "Kali Dark Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red_theme_default_dark-color-theme.json"
       }
     ]
   }
