@@ -84,7 +84,7 @@
 		"editor.findRangeHighlightBorder": "#ffffff00",
 		"editor.rangeHighlightBackground": "#ffffff0b",
 		"editor.rangeHighlightBorder": "#ffffff00",
-		"editor.hoverHighlightBackground": "#bedeff39",
+		"editor.hoverHighlightBackground": "#beffd511",
 		"editor.wordHighlightStrongBackground": "#f254771c",
 		"editor.wordHighlightBackground": "#575757b8",
 		"editor.lineHighlightBackground": "#ffffff0A",
