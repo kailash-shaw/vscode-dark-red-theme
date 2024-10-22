@@ -2,7 +2,7 @@
   "name": "vscode-dark-red-theme",
   "displayName": "Kali Theme",
   "description": "This is the vs code dark theme. You like to enjoy it. Thanks",
-  "version": "0.25.0",
+  "version": "0.26.0",
   "publisher": "vscode-dark-red-theme",
   "repository": {
     "type": "git",
@@ -56,7 +56,6 @@
         "uiTheme": "vs-dark",
         "path": "./themes/red_theme_default_dark-color-theme.json"
       }
-      
     ]
   }
 }
