@@ -1,7 +1,7 @@
 {
 	"name": "Dark Red Theme VS-Code",
 	"colors": {
-		//
+		"statusBar.background": "#3a3b3b",
 	},
 	"tokenColors": [
 		{
@@ -69,7 +69,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#fffbcfda"
+				"foreground": "#fffbd8"
 			}
 		},
 		{

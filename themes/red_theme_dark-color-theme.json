@@ -21,10 +21,10 @@
 		"menu.separatorBackground": "#020100",
 		"activityBarBadge.foreground": "#ffffff",
 		"activityBarBadge.background": "#f5445e",
-		"activityBar.foreground": "#ffcdd2",
+		"activityBar.foreground": "#ffcdd2ea",
 		"activityBar.background": "#16181d",
 		"activityBar.border": "#090600",
-		"activityBar.activeBorder": "#f74657",
+		"activityBar.activeBorder": "#ff828f",
 		"activityBar.activeBackground": "#03020075",
 		"activityBar.activeFocusBorder": "#030200",
 		"activityBar.inactiveForeground": "#cccccc85",
@@ -156,7 +156,7 @@
 		"tab.border": "#0c0000",
 		"tab.activeBackground": "#161616",
 		"tab.activeBorder": "#161616",
-		"tab.activeBorderTop": "#f91b5a",
+		"tab.activeBorderTop": "#ff828f",
 		"tab.inactiveBackground": "#1d2026",
 		"tab.inactiveForeground": "#cccccc",
 		"tab.hoverBackground": "#0c0000",
@@ -350,7 +350,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#fffbcfda"
+				"foreground": "#fffbd8"
 			}
 		},
 		{
