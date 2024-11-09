@@ -2,6 +2,7 @@
 	"name": "Dark Red Theme VS-Code",
 	"colors": {
 		"statusBar.background": "#3a3b3b",
+		"editor.background": "#000000",
 	},
 	"tokenColors": [
 		{
