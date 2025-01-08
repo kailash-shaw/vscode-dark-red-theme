@@ -111,7 +111,7 @@
 		"editorIndentGuide.activeBackground4": "#ffc400",
 		"editorIndentGuide.activeBackground5": "#cc00ff",
 		"editorIndentGuide.activeBackground6": "#00ff55",
-		"editor.foldBackground": "#fe90a845",
+		"editor.foldBackground": "#000000",
 		"editorOverviewRuler.background": "#25252500",
 		"editorOverviewRuler.border": "#7f7f7f4d",
 		"editorError.foreground": "#ff2b00",
